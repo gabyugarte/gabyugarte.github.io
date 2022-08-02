@@ -12,12 +12,20 @@
 /* Smooth scroll */
 html{
     scroll-behavior: smooth;
+    font-size: 62.5%;
+    overflow-x: hidden;
 }
 
-
+body{
+    overflow: hidden;
+    transition: .2s linear;
+}
+p{
+    font-size: 1.5rem;
+}
 .container{
-    max-width: 1300px;
-    padding: 0px 100px;
+    max-width: 130rem;
+    padding: 0rem;
     margin: auto;
     z-index: 10;
 }
@@ -29,8 +37,8 @@ html{
     text-align: center;
 }
 .m-heading{
-    font-size: 32px;
-    margin-bottom: 12px;
+    font-size: 3.2rem;
+    margin-bottom: 1.2rem;
 }
 
 /* .menu-btn{
@@ -56,12 +64,12 @@ html{
     display: inline-block;
     background: #FEC544;
     color: #08080A;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: bold;
-    padding: 8px 36px;
-    margin-top: 20px;
-    border-radius: 50px;
-    border: 2px solid #FEC544;
+    padding: 0.8rem 3.6rem;
+    margin-top: 2rem;
+    border-radius: 5rem;
+    border: 0.2rem solid #FEC544;
     transition: all 0.3s ease;
 }
 .btn-md:hover{
@@ -76,15 +84,15 @@ html{
 .cv{
     display: flex;
     justify-content: space-between;
-    font-size: 15px;
+    font-size: 1.5rem;
     background: #FEC544;
     color: #08080A;
     font-weight: bold;
-    padding: 8px 36px;
-    margin-top: 20px;
-    margin-left: 10px;
-    border-radius: 50px;
-    border: 2px solid #FEC544;
+    padding: 0.8rem 3.6rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border-radius: 5rem;
+    border: 0.2rem solid #FEC544;
     transition: all 0.3s ease;
 }
 .cv:hover{
@@ -95,8 +103,8 @@ html{
 .title::before{
     content: '';
     background: #07080B;
-    height: 2px;
-    width: 200px;
+    height: 0.2rem;
+    width: 20rem;
     margin: 0 auto;
     display: block;
     transform: translateY(44px);
@@ -105,11 +113,11 @@ html{
 .title::after{
     content: '';
     background: #07080B;
-    height: 7px;
-    width: 65px;
+    height: 0.7rem;
+    width: 6.5rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
     display: block;
     transform: translateY(1px);
 }
@@ -127,35 +135,35 @@ html{
     position: fixed;
     width: 100%;
     margin: auto;
-    padding: 35px 100px;
+    padding: 3.5rem 10rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 999;
 }
 .navbar.sticky{
-    padding: 10px 100px;
+    padding: 1rem 10rem;
     background: #07080B;
     
 }
 .navbar .logo{
     color: #FEC544;
-    font-size: 30px;
+    font-size: 3rem;
 }
 /* //nav-link */
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
-    font-size: 13px;
+    margin: 0rem 2rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
 }
 
 .navbar ul li span{
     color: #FEC544;
-    border-left: 1px solid #A9ADB8;
-    padding-left: 25px;
-    padding-right: 5px;
+    border-left: 0.1rem solid #A9ADB8;
+    padding-left: 2.5rem;
+    padding-right: 0.5rem;
     text-align: center;
 }
 .navbar ul li a{
@@ -170,13 +178,13 @@ html{
 
 
 .flags{
-    width: 75px;
+    width: 7.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .flags_item{
-    width: 30px;
+    width: 3rem;
 }
 .flags_img{
     cursor: pointer;
@@ -185,22 +193,22 @@ html{
 
 /* Showcase content section */
 .showcase-text{
-    max-width: 800px;
-    padding-top: 250px;
-    padding-left: 120px;
+    max-width: 80rem;
+    padding-top: 25rem;
+    padding-left: 12rem;
     color: #fff;
 }
  .showcase-text .text-1{
-    font-size: 27px;
+    font-size: 2.7rem;
 }
 .showcase-text .text-2{
-    font-size: 75px;
-    font-weight: 700;
+    font-size: 7.5rem;
+    font-weight: 70rem;
 }
 .showcase-text .text-3{
-    font-size: 40px;
-    margin: 5px 0;
-    font-weight: 700;
+    font-size: 4rem;
+    margin: 0.5rem 0;
+    font-weight: 70rem;
 }
 .showcase-text .text-3 span{
     color: #FEC544;
@@ -209,7 +217,7 @@ html{
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 500px;
+    width: 50rem;
     height: 100%;
     object-fit: cover;
     opacity: 0.2;
@@ -222,6 +230,8 @@ html{
 
 #about{
     background: #07080B;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .about .title::before{
@@ -234,19 +244,20 @@ html{
 .about h1{
     color: #6e6e70;
     text-align: center;
-    font-size: 80px;
+    font-size: 8rem;
     transform: translateY(20px);
     opacity: 0.1;
     padding-top: -20px;
 }
 
 .about h5{
-    font-weight: 700;
+    font-weight: 70rem;
     transform: translateY(-65px);
 }
 
 .about .about-content .column{
-    margin-top: 40px;
+    margin-top: 4rem;
+    max-width: 100%;
 }
 .about .about-content,
 .services .service-content,
@@ -261,12 +272,12 @@ html{
 
 .about .about-content .left{
     width: 55%;
-    padding: 0 20px;
+    padding: 0 2rem;
     overflow: hidden;
 }
 .about .about-content .left img{
-    height: 450px;
-    width: 450px;
+    height: 45rem;
+    width: 45rem;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -277,23 +288,25 @@ html{
 }
 
 .about .about-content .right .text{
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: 70rem;
+    margin-bottom: 1rem;
 }
 .about .about-content .right p{
     text-align: justify;
+    font-size: 1.5rem;
 }
 .about .about-content .right .text span{
     color: #FEC544;
 }
 .about .about-content .right .table{
-    width: 500px;
-    padding: 10px 0;
+    width: 50rem;
+    padding: 1rem 0;
     margin-left: 0px;
+    font-size: 1.5rem;
 }
 .about .about-content .right .table td{
-    padding: 10px;
+    padding: 1rem;
 }
 
 /* Services section styling */
@@ -304,7 +317,7 @@ html{
 }
 
 .services h5{
-    font-weight: 700;
+    font-weight: 70rem;
     color: #07080B;
     transform: translateY(-65px);
 }
@@ -320,7 +333,7 @@ html{
 
 .services .service-content .main{
     width: calc(30% - 20px);
-    min-height: 450px;
+    min-height: 45rem;
     text-align: center;
     border-radius: 5px;
     position: relative;
@@ -328,8 +341,8 @@ html{
 }
 .service{
     background: #07080B;
-    padding: 30px;
-    border-radius: 10px;
+    padding: 3rem;
+    border-radius: 1rem;
     position: absolute;
     bottom: 0;
     z-index: 1;
@@ -338,32 +351,33 @@ html{
     transition: transform 0.8s;
 }
 .service-logo{
-    width: 130px;
-    height: 130px;
+    width: 13rem;
+    height: 13rem;
     border-radius: 50%;
     margin: -90px auto 0;
     background: #07080B;
-    border: 18px solid #FEC544;
+    border: 1.8rem solid #FEC544;
     transform: transform 1s;
 }
 .service-logo i{
     color: #FEC544;
-    width: 50px;
-    margin-top: 40px;
-    font-size: 1.5rem;
+    width: 5rem;
+    margin-top: 4rem;
+    font-size: 2.5rem;
 }
 
 .service h4{
-    height: 28px;
+    height: 2.8rem;
     width: 80%;
     background: #07080B;
-    margin: 60px auto;
+    margin: 6rem auto;
     position: relative;
+    font-size: 1.5rem;
 }
 .service h4::after{
     content: '';
-    width: 40px;
-    height: 30px;
+    width: 4rem;
+    height: 3rem;
     background: linear-gradient(to right, #07080B , #FEC544 );
     position: absolute;
     right: -5px;
@@ -372,8 +386,8 @@ html{
 }
 .service h4::before{
     content: '';
-    width: 40px;
-    height: 30px;
+    width: 4rem;
+    height: 3rem;
     background: linear-gradient(to right, #FEC544 , #07080B);
     position: absolute;
     left: -5px;
@@ -385,19 +399,19 @@ html{
     width: 80%;
     background: #07080B;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 1rem;
     bottom: 0;
     left: 10%;
     z-index: -1;
-    box-shadow: 0 0 20px -15px #07080B;
+    box-shadow: 0 0 2rem -15px #07080B;
     transition: transform 0.8s;
 }
 .shadowtwo{
-    height: 200px;
+    height: 20rem;
     width: 64%;
     background: #07080B;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 1rem;
     bottom: 0;
     left: 18%;
     z-index: -2;
@@ -419,7 +433,7 @@ html{
 .skills h1{
     color: #6e6e70;
     text-align: center;
-    font-size: 80px;
+    font-size: 8rem;
     transform: translateY(20px);
     opacity: 0.1;
     padding-top: -20px;
@@ -436,33 +450,33 @@ html{
 }
 
 .skills .skill-content .column{
-    margin-top: 40px;
+    margin-top: 4rem;
     width: calc(50% - 50px);
 }
 
 .skills .skill-content .left .text{
-    font-size: 27px;
+    font-size: 2.7rem;
     font-weight: 700;
-    padding: 10px 0;
-    margin-bottom: 10px;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
     color: #FEC544;
 }
 .skills .skill-content .left p{
     color: #A9ADB8;
     text-align: justify;
     line-height: 1.4;
-    padding-top: 15px;
+    padding-top: 1.5rem;
 }
 .skills .skill-content .left a{
     display: inline-block;
     background: #FEC544;
     color: #07080B;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 700;
-    padding: 8px 16px;
-    margin-top: 20px;
-    border-radius: 5px;
-    border: 2px solid #FEC544;
+    padding: 0.8rem 1.6rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid #FEC544;
     transition: all 0.3s ease;
 }
 .skills .skill-content .left a:hover{
@@ -470,22 +484,22 @@ html{
     background: none;
 }
 .skills .skill-content .right .bars{
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 .skills .skill-content .right .info{
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
     align-items: center;
     justify-content: space-between;
     color: #A9ADB8;
 }
 .skills .skill-content .right span{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .skills .skill-content .right .line{
-    height: 2px;
+    height: 0.2rem;
     width: 100%;
     background: lightgray;
     position: relative;
@@ -535,7 +549,7 @@ html{
 .teams h1{
     color: #07080B;
     text-align: center;
-    font-size: 80px;
+    font-size: 8rem;
     transform: translateY(23px);
     opacity: 0.1;
     padding-top: -20px;
@@ -543,8 +557,8 @@ html{
 
 .teams .carousel .card{
     background: #07080B;
-    border-radius: 5px;
-    padding: 25px 35px;
+    border-radius: 0.5rem;
+    padding: 2.5rem 3.5rem;
     text-align: center;
     transition: all 0.3s ease;
 }
@@ -565,14 +579,14 @@ html{
     transform: scale(1.05);
 }
 .teams .carousel .card .text{
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 1rem 0 0.7rem 0;
 }
 
 .teams .carousel .card img{
-    height: 150px;
-    width: 150px;
+    height: 15rem;
+    width: 15rem;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid #FEC544;
@@ -584,16 +598,16 @@ html{
 
 .owl-dots {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 .owl-dot{
-    height: 13px;
-    width: 13px;
-    margin: 0 5px;
+    height: 1.3rem;
+    width: 1.3rem;
+    margin: 0 0.5rem;
     background: #07080B !important;
     outline: none !important;
     border-radius: 50%;
-    border: 2px solid #07080B;
+    border: 0.2rem solid #07080B;
     transition: all 0.3s ease;
 }
 
@@ -601,14 +615,14 @@ html{
 /* Contact Me Section */
 
 section{
-    padding: 40px 0;
+    padding: 4rem 0;
     background: #07080B;
 }
 
 .contact h1{
     color: #6e6e70;
     text-align: center;
-    font-size: 80px;
+    font-size: 8rem;
     transform: translateY(20px);
     opacity: 0.1;
     padding-top: -20px;
@@ -624,70 +638,70 @@ section{
     background: #FEC544;
 }
 .contact .contact-content .column{
-    margin-top: 40px;
+    margin-top: 4rem;
     width: calc(50% - 50px);
 }
 .contact .contact-content .left h2{
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 3rem;
+    margin-bottom: 3rem;
     color: #A9ADB8;
 }
 .contact .contact-content .left .form-group input{
     width: 100%;
-    padding: 10px;
-    margin: 15px 0;
-    border: 1px solid #A9ADB8;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border: 0.1rem solid #A9ADB8;
     background: #fff;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 .contact .contact-content .left .form-group textarea{
     width: 100%;
     background: #fff;
-    padding: 10px;
-    height: 150px;
-    margin-top: 20px;
-    border-radius: 5px;
+    padding: 1rem;
+    height: 15rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
 }
 .contact .contact-content .left .btn-md{
-    padding: 8px 18px;
-    font-size: 16px;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.6rem;
 }
 
 .contact .contact-content .right{
     color: #A9ADB8;
 }
 .contact .contact-content .right h2{
-    font-size: 30px;
-    margin-bottom: 15px;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
 }
 .contact .contact-content .right p{
     line-height: 1.6;
 }
 .contact .contact-content .right .items{
-    margin: 10px 0;
+    margin: 1rem 0;
 }
 .contact .contact-content .right .items .item{
     display: flex;
     align-items: center;
-    padding: 10px 0;
+    padding: 1rem 0;
 }
 .contact .contact-content .right .items .item i{
-    padding: 16px;
+    padding: 1.6rem;
     border: 1px solid #A9ADB8;
     border-radius: 50%;
     margin-right: 20px;
 }
 .contact .contact-content .right .items .item span{
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 .contact .contact-content .right .links{
     overflow: hidden;
-    padding: 10px 0;
+    padding: 1rem 0;
 }
 .contact .contact-content .right .links li{
     display: inline-block;
     list-style: none;
-    padding-right: 15px;
+    padding-right: 1.5rem;
 }
 .contact .contact-content .right .links li a{
     color: #A9ADB8;
@@ -700,7 +714,7 @@ section{
     text-decoration: none;
     transition: all 0.3s ease;
     font-size: 1rem;
-    margin-top: 5px;
+    margin-top: 0.5rem;
 }
 .contact .contact-content .right .links li a,
 .container .card .box .github-code:hover{
@@ -710,7 +724,7 @@ section{
 #footer{
     text-align: center;
     background: #FEC544;
-    padding: 30px 0;
+    padding: 3rem 0;
     color: #07080B;
     font-weight: 700;
 }
@@ -719,18 +733,18 @@ section{
 /* Scroll up styling */
 .scroll-up-btn{
     position: fixed;
-    height: 45px;
-    width: 42px;
-    border: 1px solid #fff;
+    height: 4.5rem;
+    width: 4.2rem;
+    border: 0.1rem solid #fff;
     background: #07080B;
-    right: 30px;
-    bottom: 10px;
+    right: 3rem;
+    bottom: 1rem;
     text-align: center;
-    line-height: 45px;
+    line-height: 4.5rem;
     color: #fff;
     z-index: 9999;
-    font-size: 30px;
-    border-radius: 6px;
+    font-size: 3rem;
+    border-radius: 0.6rem;
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
@@ -740,14 +754,14 @@ section{
 .scroll-up-btn.show{
     opacity: 1;
     pointer-events: auto;
-    bottom: 30px;
+    bottom: 3rem;
 }
 /* burger */
 .burger div{
-    width: 25px;
-    height: 3px;    
+    width: 2.5rem;
+    height: 0.3rem;    
     background-color:  rgb(226,226,226);
-    margin: 5px;
+    margin: 0.5rem;
     transition: all 0.3s ease;
 }
 .burger{
@@ -769,42 +783,42 @@ section{
 /* cambios */
 /* media queries  */
 
-@media screen and (max-width:1155px) {
+/* @media screen and (max-width:1155px) {
     /* body{
         display: none;
     } */
-    .nav-links{
+    /* .nav-links{
         width: 60%;
         /* display: none; */
       
-    }
-    .burger{
+    /* } */
+    /* .burger{
         display: block;
-    }
+    } */
 
-    .about .about-content{
+    /* .about .about-content{
         display: flex;
         flex-direction: column;
         align-items: center;
         background: #07080B;
         width:100%
-    }
-    .about .about-content .left img{
+    } */
+    /* .about .about-content .left img{
         height: 300px;
         width: 300px;
         object-fit: cover;
         border-radius: 50%;
-    }
-    .about .about-content .right p{
+    } */
+    /* .about .about-content .right p{
         width: 600px;
-    }
-    .container{
+    } */
+    /* .container{
         width: 100%;
-    }
-    .about .about-content .right {
+    } */
+    /* .about .about-content .right {
         width: 100%;
         color: rgb(169, 173, 184);
-    }
+    } */ 
 
     /* .text-secondary{
         color: #FEC544;
@@ -816,8 +830,8 @@ section{
         align-items:initial;
         justify-content: space-between;
     } */
-}
-@media screen and(max-width:768px) {
+/* } */
+/* @media screen and(max-width:768px) {
     body{
         overflow: hidden;
         
@@ -837,9 +851,115 @@ section{
 
     }
 }
+ */ 
 
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+}
+ @media (max-width: 450px){
+    html{
+        font-size: 50%;
+    }
+    .nav-links{
+        width: 60%;
+    }
+    .about .about-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #07080B;
+        width:100%
+    }
+    .about .about-content .left img{
+        height: 12rem;
+        width: 12rem;
+        object-fit: cover;
+        border-radius: 50%;
+    } 
 
-
+    .about .about-content .left{
+        text-align: center;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about .about-content .right{
+        width: 60%;
+        color: #A9ADB8;
+    }
+    .about .about-content .right .table{
+        width: 30rem;
+        padding: 1rem 0;
+        margin-left: 0px;
+        font-size: 1.5rem;
+    }
+    .download_cv {
+        display: flex;
+        flex-direction: column;
+    }
+    .services h1 {
+        color: #07080B;
+        text-align: center;
+        font-size: 6rem;
+        transform: translateY(23px);
+        opacity: 0.1;
+    }
+    .about .about-content {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    /* .about .about-content, .services .service-content, .skills .skill-content, .contact .contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 80%;
+    } */
+    .about .about-content, .services .service-content, .skills .skill-content, .contact .contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    .skills .skill-content .left p {
+        
+        width: 25rem;
+    }
+    /* .service {
+        width: 20rem;
+    } */
+    .teams h1 {
+        font-size: 5rem;
+    }
+    .contact .contact-content .column {
+        width: 70%;
+    }
+    .services .service-content .main {
+        
+        width: 70%;
+    }
+    .skills .skill-content, .contact .contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 70%;
+    }
+    .skills .skill-content .left a {
+        width: 12rem;
+    }
+    .skills .skill-content .right .bars {
+        width: 25rem;
+    }
+    .contact .contact-content{
+        width: 45rem;
+    }
+    .skills .skill-content .left .text {
+        
+        width: 25rem;
+    }
+ }
 
 
 
