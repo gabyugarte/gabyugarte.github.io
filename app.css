@@ -76,7 +76,18 @@ p{
     color: #FEC544;
     background: none;
 }
-
+.btn-thanks{
+    display: inline-block;
+    background: #FEC544;
+    color: #08080A;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0.8rem 3.6rem;
+    margin-top: 2rem;
+    border-radius: 5rem;
+    border: 0.2rem solid #FEC544;
+    transition: all 0.3s ease;
+}
 .download_cv{
     display: flex;
   
@@ -84,6 +95,7 @@ p{
 .cv{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 1.5rem;
     background: #FEC544;
     color: #08080A;
@@ -245,7 +257,7 @@ p{
     color: #6e6e70;
     text-align: center;
     font-size: 8rem;
-    transform: translateY(20px);
+    transform: translateX(55rem);
     opacity: 0.1;
     padding-top: -20px;
 }
@@ -325,7 +337,7 @@ p{
 .services h1{
     color: #07080B;
     text-align: center;
-    font-size: 80px;
+    font-size: 8rem;
     transform: translateY(23px);
     opacity: 0.1;
     padding-top: -20px;
@@ -515,22 +527,22 @@ p{
 }
 
 .skills .skill-content .right .ps::before{
-    width: 65%;
+    width: 70%;
 }
 .skills .skill-content .right .mg::before{
     width: 80%;
 }
 .skills .skill-content .right .axd::before{
-    width: 50%;
+    width: 80%;
 }
 .skills .skill-content .right .uxd::before{
     width: 90%;
 }
 .skills .skill-content .right .html::before{
-    width: 99%;
+    width: 100%;
 }
 .skills .skill-content .right .dm::before{
-    width: 56%;
+    width: 100%;
 }
 
 /* Team section styling */
@@ -886,7 +898,7 @@ section{
         margin-right: auto;
     }
     .about .about-content .right{
-        width: 60%;
+        width: 70%;
         color: #A9ADB8;
     }
     .about .about-content .right .table{
@@ -931,7 +943,7 @@ section{
         width: 20rem;
     } */
     .teams h1 {
-        font-size: 5rem;
+        font-size: 6rem;
     }
     .contact .contact-content .column {
         width: 70%;
@@ -958,6 +970,33 @@ section{
     .skills .skill-content .left .text {
         
         width: 25rem;
+    }
+    .flags {
+        
+        display: grid;
+    }
+    .btn-md{
+        display: none;
+    }
+    .about h1 {
+        transform: translateX(4.5rem);
+        font-size: 7.5rem;
+        margin-left: 3rem;
+    }
+
+    .cv{
+        font-size: 2.3rem;
+    }
+    .contact h1 {
+        font-size: 6rem;
+
+    }
+    .showcase-text {
+        padding-top: 45rem;
+        /* padding-left: 5rem;  */
+    }
+    .btn-thanks{
+        display: none;
     }
  }
 
