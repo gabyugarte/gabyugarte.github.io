@@ -60,11 +60,12 @@ p{
     padding-left: 50px;
 } */
 
-.btn-md{
+.btn-md,
+.btn-mdSend{
     display: inline-block;
     background: #FEC544;
     color: #08080A;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     padding: 0.8rem 3.6rem;
     margin-top: 2rem;
@@ -998,6 +999,7 @@ section{
     .btn-thanks{
         display: none;
     }
+  
  }
 
 
