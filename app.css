@@ -77,6 +77,11 @@ p{
     color: #FEC544;
     background: none;
 }
+.btn-mdSend:hover{
+    color: #FEC544;
+    background: none;
+}
+
 .btn-thanks{
     display: inline-block;
     background: #FEC544;
