@@ -67,33 +67,7 @@ $(document).ready(function(){
  
 
 });
- //navbar burger...............................
-
-//  const navSlide = () => {
-//     const burger = document.querySelector('.burger');
-//     const nav = document.querySelector('.menu');
-//     const navLinks = document.querySelectorAll('.menu li');
-
-// burger.addEventListener('click', () => {
-//         //toggle Nav
-//    nav.classList.toggle('nav-active');
-  
-
-//     //Animate links
-//     navLinks.forEach((link, index) => {
-//         if(link.style.animation){
-//         link.style.animation = '';
-//         }else{
-//             link.style.animation = `NavLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
-//         }
-        
-//         // console.log(index / 7 + 0.3);
-//         });
-//         //burger animation
-//         burger.classList.toggle('toggle');
-//     });
-
-//  }
-
-//  navSlide();
+//footer year
+const myYear = new Date().getFullYear();
+document.querySelector('#year').textContent = myYear;
 
